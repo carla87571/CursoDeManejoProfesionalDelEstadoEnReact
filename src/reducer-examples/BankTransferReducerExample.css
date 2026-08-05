@@ -1,0 +1,52 @@
+.bank-example-box {
+  max-width: 640px;
+  margin: 32px auto;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  background: #fafafa;
+  text-align: left;
+}
+
+.bank-example-box h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.balance {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.bank-form,
+.otp-box,
+.success-box {
+  display: grid;
+  gap: 10px;
+}
+
+.bank-example-box input,
+.bank-example-box button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c9c9c9;
+  font-size: 0.95rem;
+}
+
+.bank-example-box button {
+  background: #0b5fff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.bank-example-box button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: #b10000;
+  margin-top: 12px;
+  font-weight: 600;
+}
