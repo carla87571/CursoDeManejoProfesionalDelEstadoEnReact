@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Curso de Manejo Profesional del Estado en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto de práctica para entender cómo funciona el estado en React con ejemplos de `useState`, componentes de clase y `useReducer`.
 
-## Available Scripts
+## Qué incluye
 
-In the project directory, you can run:
+- Ejemplo de estado local con `useState`.
+- Ejemplo con componente de clase y `setState`.
+- Ejemplo de validación con `useReducer`.
+- Caso práctico de transferencia bancaria con formulario, estados de carga, errores y confirmación por OTP.
 
-### `npm start`
+## Requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js 18 o superior.
+- npm.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ejecución local
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Scripts disponibles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm start`: inicia la app en modo desarrollo.
+- `npm test`: ejecuta los tests.
+- `npm run build`: genera la versión de producción.
 
-### `npm run eject`
+## Estructura principal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [src/UseState.js](src/UseState.js): ejemplo de estado con hooks.
+- [src/ClassState.js](src/ClassState.js): ejemplo equivalente con clase.
+- [src/UseReducer.js](src/UseReducer.js): ejemplo con `useReducer`.
+- [src/reducer-examples/BankTransferReducerExample.js](src/reducer-examples/BankTransferReducerExample.js): flujo completo de transferencia bancaria.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Objetivo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto reúne distintos patrones para comparar código imperativo y declarativo, y para practicar cómo modelar estados complejos en React.
